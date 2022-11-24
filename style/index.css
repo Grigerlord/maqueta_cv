@@ -1,0 +1,393 @@
+/* ESTILOS GENERALES__________________________________________________ */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+
+html{
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    width: 900px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HEADER_____________________________________________________________ */
+
+header {
+    background-color: #404040;
+    display: flex;
+    width: 100%;
+    height: 13.6rem;
+    color: #ffffff;
+    transition: all .3s;
+}
+
+#foto-perfil, #foto-perfil figure, #foto-perfil figure img {
+    height: 13.6rem;
+    width: 13.6rem;
+    transition: all .3s;
+}
+
+#datos-generales {
+    padding: 1.5rem 3rem;
+}
+header #datos-generales h1 {
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-bottom: 0.4rem;
+}
+header #datos-generales h2 {
+    color: #d9d9d9;
+    font-size: 1.15rem;
+    font-weight: 400;
+    margin-bottom: 0.6rem;
+}
+header #datos-generales a {
+    text-decoration: none;
+    color: #d9d9d9;
+    font-size: 1rem;
+    font-weight: 400;
+    display: inline-block;
+    margin-bottom: 0.8rem;
+}
+header #datos-generales #contacto {
+    display: flex;
+    justify-content: space-between;
+    color: #d9d9d9;
+    font-size: 0.9rem;
+    font-weight: 400;
+    transition: all .3s;
+}
+header #datos-generales #contacto .contacto-item {
+    display: flex;
+    margin-right: 1.5rem;
+    font-weight: 400;
+}
+header #datos-generales #contacto .contacto-item p {
+    font-size: 0.85rem;
+    font-weight: 400;
+}
+header #datos-generales #contacto .contacto-item p a {
+    font-size: 0.85rem;
+    font-weight: 400;
+}
+header #datos-generales #contacto .contacto-item span {
+    margin-right: 0.2rem;
+}
+header #datos-generales #contacto .contacto-item span img {
+    width: 0.8rem;
+    color: #f2f2f2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BODY________________________________________________________________________ */
+/* DETALLES____________________________________________________________________ */
+
+#detalles {
+    display: flex;
+    font-weight: 800;
+    width: 100%;
+    font-size: 0.8rem;
+    padding: 1.5rem;
+}
+/* ESTILOS PARA H3_______________________________________________________________ */
+#detalles #perfil-formacion h3, #detalles #datos-detallados-competencia h3 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 0.8rem;
+}
+
+
+
+
+
+
+/* PERFIL Y FORMACION____________________________________________________________________ */
+#perfil-formacion {
+    border-right: solid 0.01rem #f2f2f2;
+    width: 67%;
+    padding-right: 2.3rem;
+}
+
+
+/* PERFIL____________________________________________________________________ */
+#perfil-formacion #perfil {
+    padding-bottom: 1.2rem;
+    border-bottom: solid 0.01rem #f2f2f2;
+}
+#perfil-formacion #perfil p {
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+
+/* FORMACION____________________________________________________________________ */
+#perfil-formacion #formacion {
+    margin-top: 1.5rem;
+}
+#detalles #perfil-formacion #formacion .detalle-formacion {
+    margin-bottom: 1.8rem;
+}
+#detalles #perfil-formacion #formacion .detalle-formacion .titulo-fecha {
+    display: flex;
+    justify-content: space-between;
+    width: 87%;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+#detalles #perfil-formacion #formacion .detalle-formacion .titulo-fecha h4,
+#detalles #perfil-formacion #formacion .detalle-formacion .titulo-fecha .fecha {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+#detalles #perfil-formacion #formacion .detalle-formacion .titulo-fecha .fecha {
+    font-size: 0.7rem;
+}
+#detalles #perfil-formacion #formacion .detalle-formacion .institucion {
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+#detalles #perfil-formacion #formacion .detalle-formacion .descripcion-formacion {
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+
+/* DATOS PERSONALES Y COMPETENCIAS_______________________________________________________________ */
+#datos-detallados-competencia {
+    padding-left: 1.4rem;
+    width: 33%;
+}
+
+/* DATOS PERSONALES = DATOS DETALLADOS____________________________________________________________ */
+#datos-detallados-competencia .datos-detallados-box {
+    font-size: 0.9rem;
+    margin-bottom: 0.8rem;
+}
+#datos-detallados-competencia .datos-detallados-box .datos-detallados-key {
+    font-weight: 400;
+    margin-bottom: 0.1rem;
+}
+#datos-detallados-competencia .datos-detallados-box .datos-detallados-value,
+#datos-detallados-competencia .datos-detallados-box .datos-detallados-value a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #404040;
+}
+#datos-detallados-competencia .datos-detallados-box .linkedin-value {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+
+
+/* COMPETENCIAS____________________________________________________________ */
+#competencias .competencia {
+    margin-bottom: 1.2rem;
+}
+#competencias .competencia .competencia-key {
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 0.8rem;
+}
+#competencias .competencia .competencia-rango {
+    width: 100%;
+    height: 0.8rem;
+    background-color: #bfbfbf;
+}
+#competencias .competencia .competencia-rango .porcentaje{
+    height: 100%;
+    background-color: #404040;
+}
+
+
+/* RANGOS____________________________________________________________________ */
+.ran-html5 {
+    width: 90%;
+}
+.ran-css3 {
+    width: 90%;
+}
+.ran-javascript {
+    width: 60%;
+}
+.ran-figma {
+    width: 60%;
+}
+.ran-reactjs {
+    width: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** @MEDIA QUERYS____________________________________________________________________ */
+/** @MEDIA QUERYS____780PX VW________________________________________________________ */
+/** @MEDIA QUERYS____________________________________________________________________ */
+@media screen and (max-width: 780px) {
+    html{
+        display: block;
+    }
+    body {
+        width: 100%;
+    }
+    header {
+        height: 17rem;
+    }
+    #foto-perfil, #foto-perfil figure, #foto-perfil figure img {
+        height: 17rem;
+        width: 17rem;
+    }
+    
+    #detalles {
+        flex-direction: column;
+        align-items: center;
+    }
+    #perfil-formacion {
+        border-right: none;
+    }
+    #perfil {
+        background-color: #f0f0f0;
+    }
+    #contacto {
+        flex-direction: column;
+    }
+    #contacto #contacto-item {
+        margin-bottom: 40px;
+    }
+    #datos-detallados {
+        background-color: #f0f0f0;
+    }
+    #datos-detallados-competencia {
+        padding-left: 0;
+        width: 67%;
+        align-self: center;
+        
+    }
+}
+
+
+
+
+
+
+
+
+/** @MEDIA QUERYS____________________________________________________________________ */
+/** @MEDIA QUERYS____610PX VW________________________________________________________ */
+/** @MEDIA QUERYS____________________________________________________________________ */
+@media screen and (max-width: 610px) {
+    header #datos-generales {
+        padding: 1.5rem;
+    }
+    header #datos-generales h1 {
+        font-size: 1.3rem;
+    }
+    header #datos-generales h2 {
+        font-size: 0.9rem;
+    }
+    header #datos-generales a {
+        font-size: 0.8rem;
+    }
+
+    #detalles #perfil-formacion {
+        width: 100%;
+        padding-right: 0;
+    }
+    #datos-detallados-competencia {
+        padding-left: 0;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+/** @MEDIA QUERYS____________________________________________________________________ */
+/** @MEDIA QUERYS____520PX VW________________________________________________________ */
+/** @MEDIA QUERYS____________________________________________________________________ */
+@media screen and (max-width: 610px) {
+    header {
+        flex-direction: column;
+        height: max-content;
+    }
+    #foto-perfil, #foto-perfil figure, #foto-perfil figure img {
+        height: 10rem;
+        width: 10rem;
+        border-radius: 50%;
+        align-self: center;
+        margin-top: 0.5rem;
+    }
+}
+
+
+
+
+
+
+/** @MEDIA QUERYS____________________________________________________________________ */
+/** @MEDIA QUERYS____450PX VW________________________________________________________ */
+/** @MEDIA QUERYS____________________________________________________________________ */
+@media screen and (max-width: 610px) {
+    #detalles {
+        align-items: flex-start;
+    }
+    .titulo-fecha {
+        flex-direction: column;
+    }
+}
